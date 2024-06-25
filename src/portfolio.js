@@ -231,35 +231,53 @@ const skills = {
 const codingProfiles = [
   {
     title: "LeetCode",
-    fileName: "FullStackImg",
-    profile: "",
+    profile: "https://leetcode.com/u/sachinbarupal/",
+    iconLight: "./src/containers/codingProfiles/leetcode.svg",
+    iconDark: "./src/containers/codingProfiles/leetcodeDark.svg",
     lines: [
       "⚡ Guardian (TOP 0.8%)",
       "⚡ Max. Rating : 2266",
       "⚡ Problems Solved : 900+",
+      "⚡ AIR 29 (Leetcode Weekly 391)",
     ],
   },
   {
     title: "Codeforces",
-    fileName: "FullStackImg",
-    profile: "",
+    iconLight: "./src/containers/codingProfiles/code-forces.svg",
+    iconDark: "./src/containers/codingProfiles/code-forces.svg",
+    profile: "https://codeforces.com/profile/sachinbarupal",
     lines: [
       "⚡ Specialist",
       "⚡ Max. Rating : 1558",
       "⚡ Problems Solved : 200+",
+      "⚡ (AIR 90) Codeforces Round 952 (Div 4)",
+    ],
+  },
+
+  {
+    title: "CodeChef",
+    iconLight: `./src/containers/codingProfiles/cc-logo.svg`,
+    iconDark: `./src/containers/codingProfiles/cc-logo.svg`,
+    profile: "https://www.codechef.com/users/sachinbarupal",
+    lines: [
+      "⚡4 ⭐",
+      "⚡Max. Rating : 1917",
+      "⚡Global Rank 118 Starters 137 (Div 2)",
     ],
   },
   {
-    title: "CodeChef",
-    fileName: "FullStackImg",
-    profile: "",
-    lines: ["⚡ 4 ⭐", "⚡ Max. Rating : 1917"],
-  },
-  {
     title: "GeeksforGeeks",
+    iconLight: "./src/containers/codingProfiles/gfg.svg",
+    iconDark: "./src/containers/codingProfiles/gfg.svg",
     fileName: "FullStackImg",
-    profile: "",
-    lines: ["⚡ 5 ⭐ ", "⚡ Max. Rating : 2121", "⚡ Problems Solved : 900+"],
+    profile: "https://www.geeksforgeeks.org/user/sachinbarupal/",
+    lines: [
+      "⚡ 5 ⭐ ",
+      "⚡ Institute Rank : 1",
+      "⚡ Max. Rating : 2121",
+      "⚡ Problems Solved : 900+",
+      "⚡ AIR 3 (GFG Weekly 145)",
+    ],
   },
   // {
   //   title: "Cloud Infra-Architecture",
