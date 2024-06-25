@@ -9,39 +9,36 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Harikrushn",
+  title: "Hello 👋!!",
+  title2: "Sachin",
   logo_name: "sachin.b()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  nickname: "sachin",
+  full_name: "Sachin Barupal",
+  subTitle:
+    "Competitive Programmer, MERN Stack Developer, DSA Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  github: "https://github.com/sachinbarupal",
+  linkedin: "https://www.linkedin.com/in/sachinbarupal",
+  gmail: "sachinbarupal@gmail.com",
+  instagram: "https://www.instagram.com/the_sachinbarupal/",
 };
 
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "FullStack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Developing mobile applications using React Native",
+        "⚡ Creating application backend in Node.js and Express",
+        "⚡ Integration of third party services such as Firebase / AWS",
       ],
       softwareSkills: [
         {
@@ -66,13 +63,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -82,7 +73,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
@@ -101,48 +92,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -150,32 +99,19 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
+          },
+        },
+
+        {
+          skillName: "",
+          fontAwesomeClassname: "simple-icons:",
+          style: {
+            color: "#f89820",
           },
         },
         {
@@ -197,6 +133,27 @@ const skills = {
           fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "",
+          fontAwesomeClassname: "simple-icons:",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "",
+          fontAwesomeClassname: "simple-icons:",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "",
+          fontAwesomeClassname: "simple-icons:",
+          style: {
+            color: "#f89820",
           },
         },
       ],
@@ -271,6 +228,108 @@ const skills = {
   ],
 };
 
+const codingProfiles = [
+  {
+    title: "LeetCode",
+    fileName: "FullStackImg",
+    profile: "",
+    lines: [
+      "⚡ Guardian (TOP 0.8%)",
+      "⚡ Max. Rating : 2266",
+      "⚡ Problems Solved : 900+",
+    ],
+  },
+  {
+    title: "Codeforces",
+    fileName: "FullStackImg",
+    profile: "",
+    lines: [
+      "⚡ Specialist",
+      "⚡ Max. Rating : 1558",
+      "⚡ Problems Solved : 200+",
+    ],
+  },
+  {
+    title: "CodeChef",
+    fileName: "FullStackImg",
+    profile: "",
+    lines: ["⚡ 4 ⭐", "⚡ Max. Rating : 1917"],
+  },
+  {
+    title: "GeeksforGeeks",
+    fileName: "FullStackImg",
+    profile: "",
+    lines: ["⚡ 5 ⭐ ", "⚡ Max. Rating : 2121", "⚡ Problems Solved : 900+"],
+  },
+  // {
+  //   title: "Cloud Infra-Architecture",
+  //   fileName: "CloudInfraImg",
+  //   skills: [
+  //     "⚡ Experience working on multiple cloud platforms",
+  //     "⚡ Experience hosting and managing websites",
+  //     "⚡ Experience with Continuous Integration",
+  //   ],
+  //   softwareSkills: [
+  //     {
+  //       skillName: "AWS",
+  //       fontAwesomeClassname: "simple-icons:amazonaws",
+  //       style: {
+  //         color: "#FF9900",
+  //       },
+  //     },
+  //     {
+  //       skillName: "Netlify",
+  //       fontAwesomeClassname: "simple-icons:netlify",
+  //       style: {
+  //         color: "#38AFBB",
+  //       },
+  //     },
+  //     {
+  //       skillName: "Heroku",
+  //       fontAwesomeClassname: "simple-icons:heroku",
+  //       style: {
+  //         color: "#6863A6",
+  //       },
+  //     },
+  //     {
+  //       skillName: "Firebase",
+  //       fontAwesomeClassname: "simple-icons:firebase",
+  //       style: {
+  //         color: "#FFCA28",
+  //       },
+  //     },
+  //     {
+  //       skillName: "PostgreSQL",
+  //       fontAwesomeClassname: "simple-icons:postgresql",
+  //       style: {
+  //         color: "#336791",
+  //       },
+  //     },
+  //     {
+  //       skillName: "MongoDB",
+  //       fontAwesomeClassname: "simple-icons:mongodb",
+  //       style: {
+  //         color: "#47A248",
+  //       },
+  //     },
+  //     {
+  //       skillName: "Docker",
+  //       fontAwesomeClassname: "simple-icons:docker",
+  //       style: {
+  //         color: "#1488C6",
+  //       },
+  //     },
+  //     {
+  //       skillName: "GitHub Actions",
+  //       fontAwesomeClassname: "simple-icons:githubactions",
+  //       style: {
+  //         color: "#5b77ef",
+  //       },
+  //     },
+  //   ],
+  // },
+];
+
 const degrees = {
   degrees: [
     {
@@ -311,7 +370,6 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
       alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
       color_code: "#47A048",
     },
     {
@@ -1245,6 +1303,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
+  codingProfiles,
   degrees,
   certifications,
   experience,

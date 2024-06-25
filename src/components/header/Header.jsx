@@ -17,25 +17,7 @@ import { themes } from "../../theme";
 function Header() {
   const [currentTheme, setCurrentTheme] = useRecoilState(themeAtom);
   const theme = themes[currentTheme];
-  // const styles = style({
-  //   cursor: "pointer",
-  //   height: "45px",
-  //   width: "45px",
-  //   marginRight: "5px",
-  //   marginLeft: "15px",
-  //   paddingTop: "5px",
-  //   borderRadius: "50%",
-  //   border: "none",
-  //   alignItems: "center",
-  //   justifyContent: "center",
-  //
-  //   outline: "none",
-  //   transition: "all 0.2s ease-in-out",
 
-  //   },
-  // });
-
-  // const link = settings.isSplash ? "/splash" : "home";
   function changeTheme() {
     if (currentTheme === "light") {
       setCurrentTheme("dark");
@@ -62,7 +44,7 @@ function Header() {
     );
 
   return (
-    <Fade direction="up" duration={500}>
+    <Fade direction="up" duration={1000}>
       <header className="header">
         <NavLink to="/" className="logo">
           <span style={{ color: theme.text }}></span>
@@ -79,7 +61,7 @@ function Header() {
           <li>
             <NavLink
               className="homei"
-              to="/home"
+              // to="/home"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -92,7 +74,7 @@ function Header() {
           <li>
             <NavLink
               className="ec"
-              to="/education"
+              // to="/education"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -105,7 +87,7 @@ function Header() {
           <li>
             <NavLink
               className="xp"
-              to="/experience"
+              // to="/experience"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -118,7 +100,7 @@ function Header() {
           <li>
             <NavLink
               className="projects"
-              to="/projects"
+              // to="/projects"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -131,7 +113,7 @@ function Header() {
           <li>
             <NavLink
               className="cr"
-              to="/contact"
+              // to="/contact"
               style={{
                 borderRadius: 5,
                 color: theme.text,
