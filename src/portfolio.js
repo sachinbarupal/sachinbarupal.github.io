@@ -14,7 +14,7 @@ const greeting = {
   subTitle:
     "Competitive Programmer, MERN Stack Developer, DSA Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
+    "https://drive.google.com/file/d/14UPZxjPTi8AVsvt0UJbnECktpLiSl0dT/view?usp=sharing",
   mail: "mailto:sachinbarupal@gmail.com",
 };
 
@@ -662,7 +662,7 @@ const projects = {
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
           name: "NodeJs",
@@ -739,7 +739,7 @@ const projects = {
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
       ],
       links: [
@@ -787,11 +787,11 @@ const projects = {
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
           name: "JavaScript",

@@ -113,7 +113,7 @@ function Header() {
           <li>
             <NavLink
               className="cr"
-              // to="/contact"
+              to="/contact"
               style={{
                 borderRadius: 5,
                 color: theme.text,

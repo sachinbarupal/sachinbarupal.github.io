@@ -9,7 +9,7 @@ export default function Footer() {
   const theme = useRecoilValue(themeSelector);
   return (
     <div className="footer-div">
-      <Fade>
+      <Fade triggerOnce>
         <p className="footer-text" style={{ color: theme.secondaryText }}>
           Made with <span role="img">❤️</span> by {greeting.title2}
         </p>

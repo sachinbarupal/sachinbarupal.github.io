@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Splash from "./pages/splash/Splash";
 import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/Contact";
 // import Home from "../pages/home/HomeComponent";
 // import Splash from "../pages/splash/Splash";
 // import Education from "../pages/education/EducationComponent";
@@ -24,6 +25,10 @@ export default function Router() {
     {
       path: "/projects",
       element: <Projects />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
     },
   ]);
 

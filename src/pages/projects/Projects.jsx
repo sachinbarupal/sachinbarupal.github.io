@@ -19,7 +19,7 @@ function Projects() {
       <Header />
       <div className="projects-main">
         <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
+          <Fade triggerOnce bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 <ProjectsImg theme={theme} />
