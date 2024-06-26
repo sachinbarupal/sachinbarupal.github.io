@@ -2,6 +2,7 @@ import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Splash from "./pages/splash/Splash";
 import Home from "./pages/home/Home";
+import Projects from "./pages/projects/Projects";
 // import Home from "../pages/home/HomeComponent";
 // import Splash from "../pages/splash/Splash";
 // import Education from "../pages/education/EducationComponent";
@@ -21,8 +22,8 @@ export default function Router() {
       element: <Home />,
     },
     {
-      path: "about",
-      element: <div>About</div>,
+      path: "/projects",
+      element: <Projects />,
     },
   ]);
 

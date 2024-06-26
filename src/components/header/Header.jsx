@@ -44,7 +44,7 @@ function Header() {
     );
 
   return (
-    <Fade direction="up" duration={1000}>
+    <Fade direction="up" duration={1000} triggerOnce>
       <header className="header">
         <NavLink to="/" className="logo">
           <span style={{ color: theme.text }}></span>
@@ -61,7 +61,7 @@ function Header() {
           <li>
             <NavLink
               className="homei"
-              // to="/home"
+              to="/home"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -71,7 +71,7 @@ function Header() {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               className="ec"
               // to="/education"
@@ -83,7 +83,7 @@ function Header() {
             >
               Education and Certifications
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               className="xp"
@@ -100,7 +100,7 @@ function Header() {
           <li>
             <NavLink
               className="projects"
-              // to="/projects"
+              to="/projects"
               style={{
                 borderRadius: 5,
                 color: theme.text,
@@ -120,7 +120,7 @@ function Header() {
                 fontWeight: "bold",
               }}
             >
-              Contact and Resume
+              Contact
             </NavLink>
           </li>
           <button

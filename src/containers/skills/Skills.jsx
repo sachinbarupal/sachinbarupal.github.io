@@ -14,7 +14,7 @@ export default function Skills() {
       style={{ marginTop: "0px", marginBottom: "0px" }}
     >
       <div className="skills-header-div">
-        <Fade direction="up" duration={1500}>
+        <Fade triggerOnce direction="up" duration={1500}>
           <h1
             className="skills-header"
             style={{ color: theme.text, marginTop: "0px", marginBottom: "0px" }}

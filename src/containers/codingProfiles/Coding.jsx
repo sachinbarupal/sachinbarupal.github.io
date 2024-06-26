@@ -10,7 +10,7 @@ export default function Coding() {
   return (
     <div className="main" id="coding">
       <div className="coding-header-div" style={{ marginTop: "0px" }}>
-        <Fade direction="up" duration={1500}>
+        <Fade direction="up" duration={1500} triggerOnce>
           <h1
             className="coding-header"
             style={{

@@ -23,7 +23,7 @@ export default function Greeting() {
   //   });
 
   return (
-    <Fade duration={2000}>
+    <Fade triggerOnce duration={2000}>
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -51,9 +51,9 @@ export default function Greeting() {
                       ? "typewriterCursor light"
                       : "typewriterCursor dark",
                   strings: [
-                    "DSA Enthusiast !!",
-                    "Competitive Programmer !!",
                     "MERN Stack Developer !!",
+                    "Competitive Programmer !!",
+                    "DSA Enthusiast !!",
                     "Always Learning !!",
                   ],
                   autoStart: true,

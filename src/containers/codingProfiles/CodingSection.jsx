@@ -5,19 +5,27 @@ import { codingProfiles } from "../../portfolio";
 import { Fade } from "react-awesome-reveal";
 import { useRecoilValue } from "recoil";
 import { themeSelector } from "../../recoil/themeAtom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function CodingSection() {
   const theme = useRecoilValue(themeSelector);
 
   const [selectedProfile, setSelectedProfile] = useState(0);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSelectedProfile((idx) => (idx + 1) % codingProfiles.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [codingProfiles.length]);
+
   return (
     <div>
       <div className="platform-icons">
         {codingProfiles.map((profile, index) => (
           <div
-            key={index}
+            key={profile.id}
             onClick={() => setSelectedProfile(index)}
             className={
               selectedProfile === index ? "active platformIcon" : "platformIcon"
@@ -62,9 +70,10 @@ function CodingSection() {
           {/* <p>Profile : {codingProfiles[selectedProfile].profile}</p> */}
           <Fade left duration={2000}>
             <div>
-              {codingProfiles[selectedProfile]?.lines?.map((line) => {
+              {codingProfiles[selectedProfile]?.lines?.map((line, index) => {
                 return (
                   <p
+                    key={index}
                     className="subTitle coding-text"
                     style={{ color: theme.secondaryText }}
                   >
