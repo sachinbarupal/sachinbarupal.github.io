@@ -50,10 +50,7 @@ function Contact() {
               /> */}
 
               <Tilt>
-                <img
-                  className="profile-pic"
-                  src="./src/pages/contact/avatar.svg"
-                />
+                <img className="profile-pic" src="/avatar.svg" />
               </Tilt>
             </div>
           </div>

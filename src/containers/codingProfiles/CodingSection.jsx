@@ -83,10 +83,7 @@ export default function CodingSection() {
         </Fade>
         <Fade triggerOnce direction="right" duration={1000}>
           <div className="coding-image-div">
-            <img
-              src="./src/containers/codingProfiles/coding.png"
-              className="floating"
-            />
+            <img src="/coding.png" className="floating" />
           </div>
         </Fade>
       </div>

@@ -160,8 +160,8 @@ const codingProfiles = [
     id: 1,
     title: "LeetCode",
     profile: "https://leetcode.com/u/sachinbarupal/",
-    iconLight: "./src/containers/codingProfiles/leetcode.svg",
-    iconDark: "./src/containers/codingProfiles/leetcodeDark.svg",
+    iconLight: "/leetcode.svg",
+    iconDark: "/leetcodeDark.svg",
     lines: [
       "⚡ Guardian (TOP 0.8%)",
       "⚡ Max. Rating : 2266",
@@ -172,8 +172,8 @@ const codingProfiles = [
   {
     id: 2,
     title: "Codeforces",
-    iconLight: "./src/containers/codingProfiles/code-forces.svg",
-    iconDark: "./src/containers/codingProfiles/code-forces.svg",
+    iconLight: "/code-forces.svg",
+    iconDark: "/code-forces.svg",
     profile: "https://codeforces.com/profile/sachinbarupal",
     lines: [
       "⚡ Specialist",
@@ -186,8 +186,8 @@ const codingProfiles = [
   {
     id: 3,
     title: "CodeChef",
-    iconLight: `./src/containers/codingProfiles/cc-logo.svg`,
-    iconDark: `./src/containers/codingProfiles/cc-logo.svg`,
+    iconLight: `/cc-logo.svg`,
+    iconDark: `/cc-logo.svg`,
     profile: "https://www.codechef.com/users/sachinbarupal",
     lines: [
       "⚡4 ⭐",
@@ -198,8 +198,8 @@ const codingProfiles = [
   {
     id: 4,
     title: "GeeksforGeeks",
-    iconLight: "./src/containers/codingProfiles/gfg.svg",
-    iconDark: "./src/containers/codingProfiles/gfg.svg",
+    iconLight: "/gfg.svg",
+    iconDark: "/gfg.svg",
     fileName: "FullStackImg",
     profile: "https://www.geeksforgeeks.org/user/sachinbarupal/",
     lines: [
