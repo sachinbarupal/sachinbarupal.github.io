@@ -1,4 +1,3 @@
-import React from "react";
 import "./FeelingProud.css";
 import { useRecoilValue } from "recoil";
 import { themeSelector } from "../../recoil/themeAtom";

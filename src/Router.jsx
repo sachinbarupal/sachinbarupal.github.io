@@ -4,13 +4,6 @@ import Splash from "./pages/splash/Splash";
 import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
-// import Home from "../pages/home/HomeComponent";
-// import Splash from "../pages/splash/Splash";
-// import Education from "../pages/education/EducationComponent";
-// import Experience from "../pages/experience/Experience";
-// import Contact from "../pages/contact/ContactComponent";
-// import Projects from "../pages/projects/Projects";
-// import { settings } from "../portfolio.js";
 
 export default function Router() {
   const router = createBrowserRouter([

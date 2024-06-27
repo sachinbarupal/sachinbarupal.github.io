@@ -1,44 +1,36 @@
 import "./Skills.css";
 import { skills } from "../../portfolio";
 import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
 import { Fade } from "react-awesome-reveal";
 import { useRecoilValue } from "recoil";
 import { themeSelector } from "../../recoil/themeAtom";
 import SoftwareSkill from "../../components/SoftwareSkill/SoftwareSkill";
 
-function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-}
-
-function SkillSection(props) {
+function SkillSection() {
   const theme = useRecoilValue(themeSelector);
 
   return (
     <div>
-      {skills.data.map((skill, index) => {
+      {skills.map((skill, index) => {
         if (index % 2 === 0) {
           return (
             <div key={index} className="skills-main-div">
-              <Fade triggerOnce left duration={2000}>
+              <Fade triggerOnce direction="left" duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <FullStackImg theme={theme} />
                 </div>
               </Fade>
 
               <div className="skills-text-div">
-                <Fade triggerOnce right duration={1000}>
+                <Fade triggerOnce direction="right" duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade triggerOnce right duration={1500}>
+                <Fade triggerOnce direction="right" duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade triggerOnce right duration={2000}>
+                <Fade triggerOnce direction="right" duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence, index) => {
                       return (
@@ -56,6 +48,10 @@ function SkillSection(props) {
               </div>
             </div>
           );
+        }
+
+        {
+          /* RIGHT SIDE */
         }
         {
           /* return (

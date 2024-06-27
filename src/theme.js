@@ -1,12 +1,10 @@
-// Theme Presets
-
 const lightTheme = {
   name: "light",
   body: "#FFFFFF",
   text: "#343434",
   dark: "#000000",
   secondaryText: "#7F8DAA",
-  accentColor: "#E3405F",
+  accentColor: "#990000",
   accentBright: "#FC1056",
   projectCard: "#DCE4F2",
   skinColor: "#F7B799",

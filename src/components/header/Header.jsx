@@ -1,5 +1,4 @@
 import "./Header.css";
-import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { greeting } from "../../portfolio";
@@ -12,7 +11,28 @@ import { useRecoilState } from "recoil";
 import { themeAtom } from "../../recoil/themeAtom";
 import { themes } from "../../theme";
 
-// import { style } from "glamor";
+import Reveal from "react-awesome-reveal";
+import { keyframes } from "@emotion/react";
+
+const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(0px, -40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+`;
+
+function CustomAnimation({ children }) {
+  return (
+    <Reveal duration={2000} triggerOnce keyframes={customAnimation}>
+      {children}
+    </Reveal>
+  );
+}
 
 function Header() {
   const [currentTheme, setCurrentTheme] = useRecoilState(themeAtom);
@@ -44,7 +64,7 @@ function Header() {
     );
 
   return (
-    <Fade direction="up" duration={1000} triggerOnce>
+    <CustomAnimation>
       <header className="header">
         <NavLink to="/" className="logo">
           <span style={{ color: theme.text }}></span>
@@ -208,7 +228,7 @@ function Header() {
           </ul>
         </header>
       </div> */}
-    </Fade>
+    </CustomAnimation>
   );
 }
 

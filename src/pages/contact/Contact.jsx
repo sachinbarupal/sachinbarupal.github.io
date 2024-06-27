@@ -2,13 +2,11 @@ import "./Contact.css";
 import Header from "../../components/header/Header.jsx";
 import SocialMedia from "../../components/socialMedia/SocialMedia.jsx";
 import Tilt from "react-parallax-tilt";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting, ContactData } from "../../portfolio.js";
 import Footer from "../../components/Footer/Footer.jsx";
 import { useRecoilValue } from "recoil";
 import { themeSelector } from "../../recoil/themeAtom.js";
 import { Fade } from "react-awesome-reveal";
-
-const ContactData = contactPageData.contactSection;
 
 function Contact() {
   const theme = useRecoilValue(themeSelector);
