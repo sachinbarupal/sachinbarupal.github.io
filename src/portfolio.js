@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "Competitive Programmer, MERN Stack Developer, DSA Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/14UPZxjPTi8AVsvt0UJbnECktpLiSl0dT/view?usp=sharing",
+    "https://drive.google.com/file/d/14_JBkJCYaoKMtxL861hLwCE4gCrehvov/view?usp=drive_link",
   mail: "mailto:sachinbarupal@gmail.com",
 };
 
